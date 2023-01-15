@@ -57,8 +57,6 @@ nav{
     text-align: center;
     margin: 0 auto;
     padding: 30px 0;
-
-    /* text-align: center; */
     width: 100%;
     max-width: 900px;
 }
@@ -190,4 +188,38 @@ main{
     font-weight: 600;
     font-size: 16px;
     color: var(--gray);
+}
+
+.sponsor{
+    text-align: center;
+    margin: 50px;
+}
+
+
+.sponsor-item-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 100px 0;
+}
+.sponsor-item{
+    filter: grayscale(100%);
+    
+}
+.sponsor-item img{
+    height: ;
+    width: ;
+    
+}
+
+
+footer{
+    margin: 0 auto;
+    height: 80px;
+    width: 100%;
+    max-width: 1100px;
+    background-color: var(--pink);
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 150px;
+    border-radius: 8px;
 }
